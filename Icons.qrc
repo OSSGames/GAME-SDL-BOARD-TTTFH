@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/main">
+        <file>tttfh.png</file>
+        <file>newGame.png</file>
+        <file>newSession.png</file>
+        <file>exit.png</file>
+        <file>HUMAN.png</file>
+        <file>MACHINE.png</file>
+        <file>quick.png</file>
+        <file>quickSession.png</file>
+        <file>net.png</file>
+        <file>back.png</file>
+    </qresource>
+</RCC>

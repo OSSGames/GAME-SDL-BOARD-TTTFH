@@ -1,0 +1,26 @@
+3.3.0 - Network Match allowing players to easily play with everyone in the world(online players, personal match's stats, online personal match, match's chat...)
+3.3.0 - Automatic internationalization support (By now supporting English, Italian and Czech languages)
+3.3.0 - Project web page with statistics, best players, etc...
+3.3.0 - New text font in hand drawing simulator
+3.3.0 - Graphical optimizations
+3.3.0 - Several GUI changes
+3.3.0 - Qt about dialog in help menu
+
+3.2 - Several AI improvements on big grids with every winning size
+3.2 - Now considering all diagonals for winning
+3.2 - Quick game rules(grid+win sizes) setup from new session interface and game area
+3.2 - Corrected winning sign geometry
+3.2 - Max grid size up to 9x9
+3.2 - Optimizations for animation speed
+3.2 - Match's number of sets in new session settings with winner message when reached
+3.2 - Match logic introduction with turning initial player from set to set and first randomly choosed
+3.2 - Who plays displayed during match(in status bar)
+3.2 - QT new session interface improvements
+
+3.1.1 - Corrected AI bug that let users wins too easy on all levels
+3.1 - New KDE4 Plasmoid Version
+3.1 - Icons in menus
+3.1 - Interface improvements
+3.1 - Precise click detection on distorted grid's slots
+
+3.0 - Completely rewritten interface from console to QT4

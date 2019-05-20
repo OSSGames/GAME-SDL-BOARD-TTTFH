@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/langs">
+        <file>tttfh_it.qm</file>
+        <file>tttfh_cs.qm</file>
+    </qresource>
+</RCC>

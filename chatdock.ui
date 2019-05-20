@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chatDock</class>
+ <widget class="QDockWidget" name="chatDock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>189</width>
+    <height>150</height>
+   </size>
+  </property>
+  <property name="features">
+   <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable</set>
+  </property>
+  <property name="allowedAreas">
+   <set>Qt::LeftDockWidgetArea|Qt::RightDockWidgetArea</set>
+  </property>
+  <property name="windowTitle">
+   <string>Net Match Chat</string>
+  </property>
+  <widget class="QWidget" name="dockWidgetContents">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="chat">
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Say: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="say">
+        <property name="maxLength">
+         <number>64</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="send">
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>say</sender>
+   <signal>returnPressed()</signal>
+   <receiver>chatDock</receiver>
+   <slot>regMess()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>152</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>74</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>sendMess(QString)</signal>
+  <slot>regMess()</slot>
+ </slots>
+</ui>
